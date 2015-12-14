@@ -1,0 +1,286 @@
+fileFormatVersion: 2
+guid: 799c5eb0aa93e214b86bd898ad297fe3
+timeCreated: 1449987372
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Monster4Move_0
+    21300002: Monster4Move_1
+    21300004: Monster4Move_2
+    21300006: Monster4Move_3
+    21300008: Monster4Move_4
+    21300010: Monster4Move_5
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 1
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Monster4Move_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 190
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 63}
+        - {x: -63, y: 44}
+        - {x: -95, y: 15}
+        - {x: -95, y: -6}
+        - {x: -92, y: -13}
+        - {x: -83, y: -16}
+        - {x: -11, y: -63}
+        - {x: 73, y: -63}
+        - {x: 95, y: -57}
+        - {x: 95, y: 33}
+        - {x: 59, y: 63}
+    - name: Monster4Move_1
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 3
+        width: 190
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29, y: -46.5}
+        - {x: 42, y: -60.5}
+        - {x: 93, y: -60.5}
+        - {x: 95, y: -57.5}
+        - {x: 95, y: 32.5}
+        - {x: 56, y: 60.5}
+        - {x: -14, y: 60.5}
+        - {x: -48, y: 31.5}
+        - {x: -53, y: 23.5}
+        - {x: -52, y: 20.5}
+        - {x: -85, y: 5.5}
+        - {x: -95, y: -0.5}
+        - {x: -95, y: -11.5}
+        - {x: -94, y: -14.5}
+        - {x: -35, y: -50.5}
+        - {x: -8, y: -60.5}
+        - {x: 36, y: -60.5}
+        - {x: 26, y: -42.5}
+        - {x: 28, y: -37.5}
+        - {x: 28, y: -43.5}
+    - name: Monster4Move_2
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 0
+        width: 190
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 63}
+        - {x: -57, y: 27}
+        - {x: -51, y: 23}
+        - {x: -95, y: 4}
+        - {x: -95, y: -17}
+        - {x: -90, y: -31}
+        - {x: 9, y: -63}
+        - {x: 52, y: -63}
+        - {x: 95, y: -24}
+        - {x: 95, y: 63}
+      - - {x: 79, y: -47}
+        - {x: 77, y: -51}
+        - {x: 77, y: -56}
+        - {x: 78, y: -59}
+        - {x: 85, y: -62}
+        - {x: 95, y: -62}
+        - {x: 95, y: -47}
+      - - {x: 69, y: -52}
+        - {x: 70, y: -54}
+        - {x: 72, y: -54}
+        - {x: 77, y: -50}
+        - {x: 77, y: -47}
+        - {x: 74, y: -46}
+        - {x: 69, y: -48}
+      - - {x: 74, y: -43}
+        - {x: 78, y: -46}
+        - {x: 81, y: -45}
+        - {x: 83, y: -39}
+        - {x: 80, y: -37}
+        - {x: 74, y: -42}
+      - - {x: 70, y: -39}
+        - {x: 73, y: -38}
+        - {x: 73, y: -35}
+        - {x: 70, y: -34}
+        - {x: 68, y: -36}
+      - - {x: 75, y: -17}
+        - {x: 70, y: -23}
+        - {x: 70, y: -34}
+        - {x: 86, y: -34}
+        - {x: 95, y: -29}
+        - {x: 95, y: -17}
+    - name: Monster4Move_3
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 0
+        width: 190
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 44, y: -42.5}
+        - {x: 48, y: -42.5}
+        - {x: 55, y: -53.5}
+        - {x: 65, y: -62.5}
+        - {x: 68, y: -62.5}
+        - {x: 77, y: -56.5}
+        - {x: 95, y: -42.5}
+        - {x: 95, y: 40.5}
+        - {x: 66, y: 51.5}
+        - {x: 35, y: 62.5}
+        - {x: -5, y: 62.5}
+        - {x: -54, y: 26.5}
+        - {x: -50, y: 22.5}
+        - {x: -26, y: 18.5}
+        - {x: -22, y: 17.5}
+        - {x: -38, y: 11.5}
+        - {x: -84, y: 6.5}
+        - {x: -95, y: 1.5}
+        - {x: -95, y: -9.5}
+        - {x: -94, y: -12.5}
+        - {x: -85, y: -15.5}
+        - {x: -34, y: -21.5}
+        - {x: -13, y: -52.5}
+        - {x: -1, y: -62.5}
+        - {x: 35, y: -62.5}
+        - {x: 47, y: -54.5}
+        - {x: 46, y: -46.5}
+        - {x: 44, y: -43.5}
+        - {x: 41, y: -40.5}
+    - name: Monster4Move_4
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 2
+        width: 190
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 65, y: 49}
+        - {x: 31, y: 61}
+        - {x: -2, y: 61}
+        - {x: -49, y: 32}
+        - {x: -52, y: 22}
+        - {x: -51, y: 19}
+        - {x: -27, y: 15}
+        - {x: -42, y: 14}
+        - {x: -95, y: 2}
+        - {x: -95, y: -19}
+        - {x: -12, y: -62}
+        - {x: 89, y: -62}
+        - {x: 94, y: -59}
+        - {x: 94, y: 7}
+        - {x: 85, y: 28}
+    - name: Monster4Move_5
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 0
+        width: 190
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 63}
+        - {x: -57, y: 27}
+        - {x: -51, y: 23}
+        - {x: -95, y: 4}
+        - {x: -95, y: -17}
+        - {x: -90, y: -31}
+        - {x: 9, y: -63}
+        - {x: 52, y: -63}
+        - {x: 95, y: -24}
+        - {x: 95, y: 63}
+      - - {x: 79, y: -47}
+        - {x: 77, y: -51}
+        - {x: 77, y: -56}
+        - {x: 78, y: -59}
+        - {x: 85, y: -62}
+        - {x: 95, y: -62}
+        - {x: 95, y: -47}
+      - - {x: 69, y: -52}
+        - {x: 70, y: -54}
+        - {x: 72, y: -54}
+        - {x: 77, y: -50}
+        - {x: 77, y: -47}
+        - {x: 74, y: -46}
+        - {x: 69, y: -48}
+      - - {x: 74, y: -43}
+        - {x: 78, y: -46}
+        - {x: 81, y: -45}
+        - {x: 83, y: -39}
+        - {x: 80, y: -37}
+        - {x: 74, y: -42}
+      - - {x: 70, y: -39}
+        - {x: 73, y: -38}
+        - {x: 73, y: -35}
+        - {x: 70, y: -34}
+        - {x: 68, y: -36}
+      - - {x: 75, y: -17}
+        - {x: 70, y: -23}
+        - {x: 70, y: -34}
+        - {x: 86, y: -34}
+        - {x: 95, y: -29}
+        - {x: 95, y: -17}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
