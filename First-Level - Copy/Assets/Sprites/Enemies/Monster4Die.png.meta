@@ -1,0 +1,292 @@
+fileFormatVersion: 2
+guid: 19379cc36aaad7649ac8426d3aa9bbd0
+timeCreated: 1449987653
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Monster4Die_0
+    21300002: Monster4Die_1
+    21300004: Monster4Die_2
+    21300006: Monster4Die_3
+    21300008: Monster4Die_4
+    21300010: Monster4Die_5
+    21300012: Monster4Die_6
+    21300014: Monster4Die_7
+    21300016: Monster4Die_8
+    21300018: Monster4Die_9
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 1
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Monster4Die_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 8
+        width: 189
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46.787437, y: 65.91498}
+        - {x: -3.2125626, y: 65.91498}
+        - {x: -5.2125626, y: 59.914978}
+        - {x: 0.78743744, y: 56.914978}
+        - {x: 0.78743744, y: 57.914978}
+        - {x: -0.21256256, y: 56.914978}
+        - {x: -0.21256256, y: 57.914978}
+        - {x: -10.212563, y: 60.914978}
+        - {x: -19.212563, y: 61.914978}
+        - {x: -74.21256, y: 53.914978}
+        - {x: -93.21256, y: 15.914978}
+        - {x: -93.21256, y: -62.085022}
+        - {x: 84.78744, y: -62.085022}
+        - {x: 94.78744, y: -36.085022}
+        - {x: 94.78744, y: 21.914978}
+        - {x: 82.78744, y: 50.914978}
+    - name: Monster4Die_1
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 7
+        width: 187
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 58.64058, y: 15.425606}
+        - {x: 40.64058, y: 53.425606}
+        - {x: -22.35942, y: 53.425606}
+        - {x: -20.35942, y: 44.425606}
+        - {x: -14.359421, y: 41.425606}
+        - {x: -14.359421, y: 42.425606}
+        - {x: -15.359421, y: 41.425606}
+        - {x: -15.359421, y: 42.425606}
+        - {x: -25.35942, y: 45.425606}
+        - {x: -34.35942, y: 46.425606}
+        - {x: -36.35942, y: 40.425606}
+        - {x: -31.35942, y: 37.425606}
+        - {x: -92.35942, y: -20.574394}
+        - {x: -92.35942, y: -33.574394}
+        - {x: -52.35942, y: -64.574394}
+        - {x: 93.64058, y: -64.574394}
+        - {x: 93.64058, y: -43.574394}
+        - {x: 77.64058, y: -40.574394}
+    - name: Monster4Die_2
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 6
+        width: 189
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 40.440582, y: 51.936234}
+        - {x: -25.559418, y: 51.936234}
+        - {x: -21.559418, y: 42.936234}
+        - {x: -15.559418, y: 39.936234}
+        - {x: -15.559418, y: 40.936234}
+        - {x: -16.559418, y: 39.936234}
+        - {x: -16.559418, y: 40.936234}
+        - {x: -26.559418, y: 43.936234}
+        - {x: -36.559418, y: 45.936234}
+        - {x: -93.55942, y: -23.063766}
+        - {x: -93.55942, y: -41.063766}
+        - {x: -44.559418, y: -65.06377}
+        - {x: 67.44058, y: -65.06377}
+        - {x: 94.44058, y: -55.063766}
+        - {x: 94.44058, y: -46.063766}
+        - {x: 92.44058, y: -43.063766}
+    - name: Monster4Die_3
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 6
+        width: 193
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.716919, y: 41.936234}
+        - {x: -13.716919, y: 42.936234}
+        - {x: -14.716919, y: 41.936234}
+        - {x: -14.716919, y: 42.936234}
+        - {x: -24.716919, y: 45.936234}
+        - {x: -33.71692, y: 45.936234}
+        - {x: -36.71692, y: 44.936234}
+        - {x: -95.71692, y: -50.063766}
+        - {x: -95.71692, y: -61.063766}
+        - {x: -93.71692, y: -65.06377}
+        - {x: 95.28308, y: -65.06377}
+        - {x: 95.28308, y: -21.063766}
+        - {x: 41.28308, y: 53.936234}
+        - {x: -22.716919, y: 53.936234}
+        - {x: -19.716919, y: 44.936234}
+    - name: Monster4Die_4
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 3
+        width: 191
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 71.07245, y: -41.531883}
+        - {x: 71.07245, y: -43.531883}
+        - {x: 71.07245, y: -39.531883}
+        - {x: 70.07245, y: -36.531883}
+        - {x: 35.07245, y: 34.468117}
+        - {x: 18.072449, y: 52.468117}
+        - {x: -94.92755, y: 52.468117}
+        - {x: -94.92755, y: -66.53188}
+        - {x: 93.07245, y: -66.53188}
+        - {x: 95.07245, y: -60.531883}
+        - {x: 95.07245, y: -45.531883}
+        - {x: 72.07245, y: -37.531883}
+    - name: Monster4Die_5
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 0
+        width: 202
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -71, y: -14.5}
+        - {x: -100, y: -50.5}
+        - {x: -100, y: -62.5}
+        - {x: -68, y: -68.5}
+        - {x: 30, y: -68.5}
+        - {x: 100, y: -56.5}
+        - {x: 100, y: -30.5}
+        - {x: 34, y: -14.5}
+    - name: Monster4Die_6
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 0
+        width: 202
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63.689453, y: -14.5}
+        - {x: -99.68945, y: -32.5}
+        - {x: -99.68945, y: -64.5}
+        - {x: -92.68945, y: -68.5}
+        - {x: 48.310547, y: -68.5}
+        - {x: 101.31055, y: -56.5}
+        - {x: 101.31055, y: -43.5}
+        - {x: 30.310547, y: -14.5}
+    - name: Monster4Die_7
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 0
+        width: 203
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -74.389404, y: -14.5}
+        - {x: -100.389404, y: -42.5}
+        - {x: -100.389404, y: -62.5}
+        - {x: -94.389404, y: -68.5}
+        - {x: 101.610596, y: -68.5}
+        - {x: 101.610596, y: -32.5}
+        - {x: 21.610596, y: -14.5}
+    - name: Monster4Die_8
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 0
+        width: 202
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -100.1001, y: -68.5}
+        - {x: 91.8999, y: -68.5}
+        - {x: 100.8999, y: -67.5}
+        - {x: 100.8999, y: -35.5}
+        - {x: 80.8999, y: -14.5}
+        - {x: -91.1001, y: -14.5}
+        - {x: -100.1001, y: -41.5}
+    - name: Monster4Die_9
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 0
+        width: 202
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -100.30005, y: -63.5}
+        - {x: -87.30005, y: -68.5}
+        - {x: 68.69995, y: -68.5}
+        - {x: 100.69995, y: -65.5}
+        - {x: 100.69995, y: -44.5}
+        - {x: 68.69995, y: -14.5}
+        - {x: -71.30005, y: -14.5}
+        - {x: -100.30005, y: -31.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

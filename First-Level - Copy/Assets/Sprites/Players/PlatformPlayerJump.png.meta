@@ -1,0 +1,188 @@
+fileFormatVersion: 2
+guid: 98c237ab235e13146873f1f209516a10
+timeCreated: 1445557091
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: PlatformPlayerJump_0
+    21300002: PlatformPlayerJump_1
+    21300004: PlatformPlayerJump_2
+    21300006: PlatformPlayerJump_3
+    21300008: PlatformPlayerJump_4
+    21300010: PlatformPlayerJump_5
+    21300012: PlatformPlayerJump_6
+    21300014: PlatformPlayerJump_7
+    21300016: PlatformPlayerJump_8
+    21300018: PlatformPlayerJump_9
+    21300020: PlatformPlayerJump_10
+    21300022: PlatformPlayerJump_11
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 1
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: PlatformPlayerJump_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 0
+        width: 65
+        height: 84
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlatformPlayerJump_1
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 0
+        width: 65
+        height: 84
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlatformPlayerJump_2
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 0
+        width: 65
+        height: 84
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlatformPlayerJump_3
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 0
+        width: 65
+        height: 84
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlatformPlayerJump_4
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 0
+        width: 65
+        height: 84
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlatformPlayerJump_5
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 0
+        width: 65
+        height: 84
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlatformPlayerJump_6
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 0
+        width: 65
+        height: 84
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlatformPlayerJump_7
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 0
+        width: 65
+        height: 84
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlatformPlayerJump_8
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 0
+        width: 65
+        height: 84
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlatformPlayerJump_9
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 0
+        width: 65
+        height: 84
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlatformPlayerJump_10
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 0
+        width: 65
+        height: 84
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlatformPlayerJump_11
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 0
+        width: 65
+        height: 84
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
