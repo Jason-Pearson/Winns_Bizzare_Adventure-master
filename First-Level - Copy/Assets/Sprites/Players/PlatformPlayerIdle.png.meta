@@ -1,0 +1,188 @@
+fileFormatVersion: 2
+guid: 40c435dcabf5e2d4f8a13f388cd74216
+timeCreated: 1445556574
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: PlatformPlayerIdle_0
+    21300002: PlatformPlayerIdle_1
+    21300004: PlatformPlayerIdle_2
+    21300006: PlatformPlayerIdle_3
+    21300008: PlatformPlayerIdle_4
+    21300010: PlatformPlayerIdle_5
+    21300012: PlatformPlayerIdle_6
+    21300014: PlatformPlayerIdle_7
+    21300016: PlatformPlayerIdle_8
+    21300018: PlatformPlayerIdle_9
+    21300020: PlatformPlayerIdle_10
+    21300022: PlatformPlayerIdle_11
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 1
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: PlatformPlayerIdle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 67
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlatformPlayerIdle_1
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 0
+        width: 67
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlatformPlayerIdle_2
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 0
+        width: 67
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlatformPlayerIdle_3
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 0
+        width: 67
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlatformPlayerIdle_4
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 67
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlatformPlayerIdle_5
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 0
+        width: 67
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlatformPlayerIdle_6
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 0
+        width: 67
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlatformPlayerIdle_7
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 0
+        width: 67
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlatformPlayerIdle_8
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 67
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlatformPlayerIdle_9
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 0
+        width: 67
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlatformPlayerIdle_10
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 0
+        width: 67
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PlatformPlayerIdle_11
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 0
+        width: 67
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
