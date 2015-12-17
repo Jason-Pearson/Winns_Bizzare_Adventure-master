@@ -49,24 +49,31 @@ public class PlayerCollider : MonoBehaviour {
         {
             highscoreScript = highscore.GetComponent<HighScoreController>();// - set the PlayerController-reference (called playerControllerScript) to the <script component> of the Player gameobject (via the gameObject-reference) to have access the instance of the PlayerController script
         }
-        if (highscore == null) //for exception handling - to have the console debug the absense of a player controller script in order for this entire code, the code in the GameController to work
+        else if (highscore == null) //for exception handling - to have the console debug the absense of a player controller script in order for this entire code, the code in the GameController to work
         {
             Debug.Log("Cannot find ScoreController script for final score referencing to GameOver - finalAcquired Label");
+        }
+
+        if(this.instructLabel2 != null)
+        {
+            this.instructLabel2.enabled = false;
         }
     }
 	// Use this for initialization
 	void Start () {
         //restart = false;
 
-        if (keepScore == true && keepLives == true)
-        {
-            scoreValue = highscoreScript.keepScore;
+        //if (keepScore == true)
+       // {
+        //    this.scoreValue = this.highscoreScript.keepScore;
+        //    this._SetScoreLives();
+       // }
+       // else
+       // {
+            //this.loadlevel = this.highscoreScript.loadLevelIndex;
+            this.scoreValue = this.highscoreScript.keepScore;
             this._SetScoreLives();
-        }
-        else
-        {
-            this._SetScoreLives();
-        }
+       // }
 
 		this.gameOverLabel.enabled = false; // Hides end game text 
 		this.finalScoreLabel.enabled = false;
@@ -75,10 +82,10 @@ public class PlayerCollider : MonoBehaviour {
 
         if (this.instructLabel != null && this.instructLabel2 != null)
         {
-
+            this.instructLabel.enabled = true;
+            this.instructLabel2.enabled = false;
         }
-        this.instructLabel.enabled = true;
-        this.instructLabel2.enabled = true;
+        
         
 
         this.finalTimeLabel.enabled = false;
@@ -119,16 +126,27 @@ public class PlayerCollider : MonoBehaviour {
     //highscoreScript.keepScore = scoreValue;
     timer -= Time.deltaTime;
 
-    if (timer <= 345f)
+    if (timer <= 440f)
     {
-        if (this.instructLabel != null)
+        if (this.instructLabel != null && this.instructLabel2 != null)
         {
             this.instructLabel.enabled = false;
-            this.instructLabel2.enabled = false;
+            //this.instructLabel2.enabled = true;
         }
     }
 
+        if(showIntructLabel2)
+        {
+        if (this.instructLabel2 != null)
+        {
+            this.instructLabel2.enabled = false;
+        }
+        }
+    
     this.Timer();
+
+    this.highscoreScript.loadLevelIndex = this.loadlevel;
+    this.highscoreScript.keepScore = this.scoreValue;
 
 	}
 
@@ -154,7 +172,19 @@ public class PlayerCollider : MonoBehaviour {
            // this._portalSound.playOnAwake = true;
         }
 		this._SetScoreLives ();
+
+        if(otherGameObject.tag == "PowerUp")
+        {
+            bestTime = timer;
+            this.instructLabel2.enabled = true;
+            Invoke("_showInstructLabel2", 5f);
+        }
 	}
+
+    private void _showInstructLabel2()
+    {
+        this.showIntructLabel2 = true;
+    }
 
 	void OnCollisionEnter2D(Collision2D otherGameObject)
 	{

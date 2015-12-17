@@ -70,6 +70,9 @@ public class PlayerController : MonoBehaviour {
     public bool start;
     public bool end;
     public bool reset;
+
+    public bool plat1;
+    public bool plat2;
     /*private SpriteRenderer _portalSprite;
     private BoxCollider2D _portalCollider;*/
 
@@ -315,6 +318,17 @@ public class PlayerController : MonoBehaviour {
             this.end = false;
         }
 
+        if(otherGameObject.tag == "Plat1")
+        {
+            this.plat1 = true;
+            this.plat2 = false;
+        }
+
+        if (otherGameObject.tag == "Plat2")
+        {
+            this.plat1 = false;
+            this.plat2 = true;
+        }
         /*if (otherGameObject.tag == "Reset")
         {
             this.reset = true;

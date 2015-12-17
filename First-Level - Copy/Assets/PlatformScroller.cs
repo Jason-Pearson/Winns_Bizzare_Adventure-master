@@ -10,9 +10,9 @@ public class PlatformScroller : MonoBehaviour {
 
     public bool plat1;
     public bool plat2;
-    public bool plat3;
+    /*public bool plat3;
     public bool plat4;
-    public bool plat5;
+    public bool plat5;*/
 
     /*public bool start;
     public bool end;*/
@@ -40,7 +40,7 @@ public class PlatformScroller : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if(plat1)
+        if(playerScript.plat1 && this.plat1)
         {
             if (playerScript.start)
             {
@@ -93,7 +93,7 @@ public class PlatformScroller : MonoBehaviour {
             }
         }
 
-        if (plat2)
+        if (playerScript.plat2 && this.plat2)
         {
             if (playerScript.start)
             {

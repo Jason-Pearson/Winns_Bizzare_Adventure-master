@@ -398,6 +398,10 @@ public class EnemyController : MonoBehaviour {
         if (otherCollider.gameObject.CompareTag("Platform"))
         {
             this._isGrounded = false;
+            if(blackWolf)
+            {
+                this._rigidbody2D.constraints = RigidbodyConstraints2D.None | RigidbodyConstraints2D.FreezeRotation;
+            }
         }
     }
 

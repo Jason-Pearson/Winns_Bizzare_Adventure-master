@@ -4,10 +4,11 @@ using UnityEngine.UI;
 
 public class GameOverController : MonoBehaviour {
 
+    public GameObject highscore;
     HighScoreController highscoreScript;
+
     public Text finalScoreLabel;
     private int loadSameLevel;
-    public GameObject highscore;
     public GameObject background;
     public GameObject platform;
     public Material newMatLevel2;
@@ -39,12 +40,13 @@ public class GameOverController : MonoBehaviour {
         }
         else if (highscoreScript.loadLevelIndex == 4)
         {
-            //this.lvl2PlatformCollider.isTrigger = false;
+            this.lvl2PlatformCollider.isTrigger = false;
             background.GetComponent<Renderer>().material = newMatLevel3;
             platform.GetComponent<SpriteRenderer>().sprite = level3Platform;
             //platform.GetComponent<Transform>().transform.localScale = new Vector3(1.5f, 1.5f, 1);
-            //platform.GetComponent<Transform>().transform.position = new Vector3(-399, -251, 0);
+            platform.GetComponent<Transform>().transform.position = new Vector3(-399, -240, 0);
         }
+        this.finalScoreLabel.text = "Final Score: " + highscoreScript.keepScore;
     }
 
 	// Use this for initialization
