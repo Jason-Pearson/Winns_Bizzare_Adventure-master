@@ -62,7 +62,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\PlatformScroller.cs" />
     <Compile Include="Assets\_Scripts\ChestController.cs" />
     <Compile Include="Assets\_Scripts\CoinController.cs" />
     <Compile Include="Assets\_Scripts\DeathTrigger.cs" />
@@ -73,6 +72,7 @@
     <Compile Include="Assets\_Scripts\HighScoreController.cs" />
     <Compile Include="Assets\_Scripts\MenuController.cs" />
     <Compile Include="Assets\_Scripts\PlatformFall.cs" />
+    <Compile Include="Assets\_Scripts\PlatformScroller.cs" />
     <Compile Include="Assets\_Scripts\PlayerCollider.cs" />
     <Compile Include="Assets\_Scripts\PlayerController.cs" />
     <Compile Include="Assets\_Scripts\ShotMover.cs" />
@@ -86,6 +86,14 @@
     <Compile Include="Assets\_Scripts\SpawnPlatforms.cs" />
     <Compile Include="Assets\_Scripts\WallCollision.cs" />
     <Compile Include="Assets\_Scripts\WinController.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Sprites\Platforms &amp; Aesthetics\Aesthetics\LvL 3\Level3Grass+Bush\Level3Bush\data.xml" />
+    <None Include="Assets\Sprites\Platforms &amp; Aesthetics\Aesthetics\LvL 3\Level3Grass+Bush\Level3Grass\data.xml" />
+    <None Include="Assets\Sprites\Platforms &amp; Aesthetics\Aesthetics\LvL 3\Level3GrassA\data.xml" />
+    <None Include="Assets\Sprites\Platforms &amp; Aesthetics\Aesthetics\LvL 3\Level3Statue\data.xml" />
+    <None Include="Assets\Sprites\Platforms &amp; Aesthetics\Aesthetics\LvL 3\Level3TreesA\data.xml" />
+    <None Include="Assets\Sprites\Platforms &amp; Aesthetics\Aesthetics\LvL 3\Level3TreesB\data.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2013\UnityVS.CSharp.targets" />
 </Project>

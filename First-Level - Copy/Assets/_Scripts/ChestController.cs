@@ -9,7 +9,7 @@ public class ChestController : MonoBehaviour {
     private BoxCollider2D _chestCollider;
 
     PlayerController playerScript;
-
+    PlayerCollider playerScript2;
     private AudioSource[] _audioSources;
     private AudioSource _coins;
 
@@ -21,6 +21,16 @@ public class ChestController : MonoBehaviour {
             playerScript = player.GetComponent<PlayerController>();// - set the PlayerController-reference (called playerControllerScript) to the <script component> of the Player gameobject (via the gameObject-reference) to have access the instance of the PlayerController script
         }
         if (player == null) //for exception handling - to have the console debug the absense of a player controller script in order for this entire code, the code in the GameController to work
+        {
+            Debug.Log("Cannot find ScoreController script for final score referencing to GameOver - finalAcquired Label");
+        }
+
+        GameObject player2 = GameObject.FindWithTag("Player"); //create reference for Player gameobject, and assign the variable via FindWithTag at start
+        if (player2 != null) // if the playerObject gameObject-reference is not null - assigning the reference via FindWithTag at first frame -
+        {
+            playerScript2 = player2.GetComponent<PlayerCollider>();
+        }
+        if (player2 == null) //for exception handling - to have the console debug the absense of a player controller script in order for this entire code, the code in the GameController to work
         {
             Debug.Log("Cannot find ScoreController script for final score referencing to GameOver - finalAcquired Label");
         }
@@ -55,6 +65,8 @@ public class ChestController : MonoBehaviour {
                         this._coins.Play();
                         playerScript.coinCount += 1;
                         playerScript.setCoinCount();
+                        this.playerScript2.scoreValue += 10;
+                        playerScript2._SetScoreLives();
                     }
                 Destroy(gameObject, 1.4f);
              }

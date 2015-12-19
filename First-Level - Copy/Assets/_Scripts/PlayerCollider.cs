@@ -253,7 +253,7 @@ public class PlayerCollider : MonoBehaviour {
 	}
 
 	// PRIVATE METHODS
-	private void _SetScoreLives() {
+	public void _SetScoreLives() {
 		this.scoreLabel.text = "Score: " + this.scoreValue;
 		this.livesLabel.text = "Lives: " + this.livesValue;
 	}

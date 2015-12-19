@@ -36,7 +36,7 @@ public class EnemyController : MonoBehaviour {
 
     public Transform target;
     public PlayerController playerScript;
-
+    public PlayerCollider playerScript2;
     private float _distanceFromTarget;
     void Awake()
     {
@@ -57,7 +57,16 @@ public class EnemyController : MonoBehaviour {
                 Debug.Log("Cannot find ScoreController script for final score referencing to GameOver - finalAcquired Label");
             }
         }
-        
+
+        GameObject player2 = GameObject.FindWithTag("Player"); //create reference for Player gameobject, and assign the variable via FindWithTag at start
+        if (player2 != null) // if the playerObject gameObject-reference is not null - assigning the reference via FindWithTag at first frame -
+        {
+            playerScript2 = player2.GetComponent<PlayerCollider>();
+        }
+        if (player2 == null) //for exception handling - to have the console debug the absense of a player controller script in order for this entire code, the code in the GameController to work
+        {
+            Debug.Log("Cannot find ScoreController script for final score referencing to GameOver - finalAcquired Label");
+        }
     }
     // Use this for initialization
     void Start()
@@ -266,11 +275,18 @@ public class EnemyController : MonoBehaviour {
                         playerScript._goldCoinSound.Play();
                         playerScript.coinCount += 1;
                         playerScript.setCoinCount();
+                        this.playerScript2.scoreValue += 10;
+                        playerScript2._SetScoreLives();
                     }
                     Destroy(gameObject, 0.75f);
                 }
                 else
                 {
+                    for (int i = 0; i < 2; i++)
+                    {
+                        this.playerScript2.scoreValue += 10;
+                        playerScript2._SetScoreLives();
+                    }
                     Destroy(gameObject, 0.85f);
                 }
             }
@@ -311,6 +327,8 @@ public class EnemyController : MonoBehaviour {
                         playerScript._goldCoinSound.Play();
                         playerScript.coinCount += 1;
                         playerScript.setCoinCount();
+                        this.playerScript2.scoreValue += 10; 
+                        playerScript2._SetScoreLives();
                     }
 
                     Destroy(gameObject, 0.75f);
@@ -398,10 +416,10 @@ public class EnemyController : MonoBehaviour {
         if (otherCollider.gameObject.CompareTag("Platform"))
         {
             this._isGrounded = false;
-            if(blackWolf)
+            /*if(blackWolf)
             {
                 this._rigidbody2D.constraints = RigidbodyConstraints2D.None | RigidbodyConstraints2D.FreezeRotation;
-            }
+            }*/
         }
     }
 
