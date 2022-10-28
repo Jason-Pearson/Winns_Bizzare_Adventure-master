@@ -1,0 +1,1 @@
+Extract Final (Version 1.0 - Demo) or Final (Version 1.0), then extract the zip files inside the folder to play the game
